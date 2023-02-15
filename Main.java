@@ -17,6 +17,9 @@ class Trainingsschema {
         this(klant);
         this.trainer = trainer;
     }
+// Private void in Java is a keyword that is used in a method declaration to specify that the method is accessible only within the declared class 
+// and not from any other class. This is an access modifier that can be applied to methods, variables, and constructors, 
+// making them only accessible within the declared class.
 
     private void printOefening(String naam, String spierGroep, Integer aantalSets, Integer herhalingen,
             Integer rustTijd) {
